@@ -1,0 +1,264 @@
+
+
+
+
+.body{
+	width:1260px;
+	height: 940px;
+	background-color:#EDF2C5;
+	box-sizing: border-box;
+	margin:0 auto;
+	
+}
+
+html {
+	background-color:#EDF2C5;
+	box-sizing: border-box;
+}
+
+
+/* 先暫時設定成白色 */
+.container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EDF2C5;
+	padding-left: 0px;
+	padding-right: 0px;}
+
+
+
+.header{
+padding-left:0px;
+color: #617140;
+font-size: 250%;
+padding-bottom: 8px;
+
+margin-top: 53px;
+margin-bottom: 8px;
+
+display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	align-items:center;
+}
+
+
+
+
+.header-title {
+	margin: 0 ;
+	color: #778A50;
+	
+	font-family: Arial black;
+	height: 42px;
+	width : 271px;
+	
+}
+
+.sidebar{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+font-size: 85%;
+
+
+}
+
+.sidebar img, h4, hr {
+ margin:5px;
+}
+
+/* 設定數值 (顯示不出來) */
+.sidebar h4 {
+	padding-right: 5px;
+		padding-left: 5px;
+
+border : #778A50 solid 1px  ;
+background color : #EDF2C5 ;
+font-family:Arial Black ;
+font-size:12pt;
+
+display: flex;
+align-items:center;
+
+}
+
+hr{
+
+	display:block;
+}
+
+
+
+
+
+/* 顏色顯示不出來 */
+.navbar{
+	margin: 0 ;
+	background-color: #778A50;
+	width:940px;
+	height:44px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	align-items:center;
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+
+}
+
+
+
+.navbar h3 {
+
+	margin:16px 30px;
+	font-size: 16px;
+	list-style-type: 1;
+	color:#EDF2C5;
+	font-family: Arial Black;
+} 
+
+
+/* 先暫時設定成白色 */
+.banner{
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+.content{
+
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+
+display: flex;
+flex-direction: row ;
+flex-wrap:nowrap;
+justify-content: space-between;
+
+}
+
+
+/* 設定字方塊 */
+.box-title{
+
+	width: 412px;
+	height:45px;
+	display: flex;
+	flex-direction: row 
+	flex-wrap:nowrap;
+	align-items: center;
+	font-size: 120%;
+	color : #EDF2C5;
+	background-color: #778A50;
+	
+	justify-content: space-between;
+	padding-left: 44px;
+	margin-bottom: 15px;
+
+}
+
+
+	/* 字大小*/
+.box-title h3{
+
+	font-family: arial black ;
+	font-size: 16px;
+
+
+}
+
+.leftbox,.rightbox{
+
+	margin top : 30px ;
+	
+margin-right: 30px;
+
+	
+}
+
+
+.a,b {
+
+	padding-right:13px;
+}
+
+.b,c {
+padding-right:13px;
+
+}
+
+
+
+/* padding top 位置*/
+
+.text{
+
+padding-top: 5px;
+padding-left: 15px;
+background-color: #F7FBDA;
+line-height:1.33;
+font-size: 12px;
+
+color : #7D7D7D ;
+font-family: ArialMT Regular;
+height: 140px;
+
+}
+
+
+.infor {
+
+	line-height:1.83;
+
+
+}
+
+
+/* 線長*/
+
+.text hr{
+
+width: 414px;
+color : #7D7D7D ;
+
+
+}
+
+
+
+.footercss {
+	display: flex;
+	width: 1264px;
+	height:60px;
+	background-color: #778A50;
+	align-items: center;
+margin-top: 35px;
+	
+	padding-left: 479px;
+
+}
+
+.footercss h5 {
+
+	color:#EDF2C5;
+	font-size: 12px;
+	font-family: ArialMT Regular;
+
+
+
+
+}
+
+
